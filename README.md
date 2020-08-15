@@ -7,7 +7,7 @@ Este é o meu primeiro projeto de programação pela Universidade de Brasília e
 O programa possui uma função que gera o ambiente do elevador e a lista de eventos. A partir dela, o programa principal recebe a escolha da estratégia pelo usuário, o arquivo .txt do ambiente do elevador e o arquivo .txt dos eventos. Em seguida, dada a estratégia escolhida, o programa principal vai chamar a função da FCFS ou SJF. Cada uma dessas funções chama outras quatro funções que executam os principais procedimentos do elevador: receber um novo pedido da lista de eventos (Adiciona Eventos), verificar se têm alguém para descer (SaidaElevador), verificar se têm alguém para entrar (EntraElevador) e decide em qual sentido ir (Sentido). Cada uma dessas 4 funções chama um conjunto de Tipos Abstratos de Dados (TAD’s). O diagrama a seguir mostra essa cadeia de funções:
 
 ![](/CadeiaFuncoes.png)
-Format: ![Alt Text](url)
+
 
 ## 2. Módulos e conteúdo
 

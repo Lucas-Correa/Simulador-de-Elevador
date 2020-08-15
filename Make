@@ -1,0 +1,14 @@
+Simulador: main.o
+	gcc main.o Estrategias.o Funcoes.o -o Simulador
+
+main.o: main.c 
+	gcc -c main.c Estrategias.o Funcoes.o
+
+Estrategias.o: Estrategias.c
+	gcc -c Estrategias.c
+
+Funcoes.o: Funcoes.c Funcoes.h
+	gcc -c Funcoes.c
+
+clean:
+	rm *.o
